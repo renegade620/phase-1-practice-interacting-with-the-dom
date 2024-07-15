@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 let counter = document.getElementById("counter"); // assign h1(counter) to variable
 let count = 0; // variable to be used to increment counter
 let interval = setInterval(counterIncrement, 1000); // setInterval(callback and delay) assigned to a variable
@@ -97,3 +98,4 @@ plusButton.addEventListener("click", counterIncrement); // for plus
 heartButton.addEventListener("click", likeCount);
 pauseButton.addEventListener("click", togglePause);
 commentForm.addEventListener("submit", handleComment);
+});
